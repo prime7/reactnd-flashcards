@@ -1,0 +1,17 @@
+{
+  "name": "reactnd-flash-cards",
+  "displayName": "reactnd-flash-cards",
+  "expo": {
+    "name": "reactnd-flash-cards",
+    "slug": "reactnd-flash-cards",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
