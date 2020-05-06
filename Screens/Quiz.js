@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import Card from '../Components/Card'
 import Score from '../Components/Score'
 import { black } from '../utils/colors'
-import { clearLocalNotification, setLocalNotification } from '../utils/helpers'
 
 class Quiz extends React.Component {
     static navigationOptions = {
@@ -36,9 +35,7 @@ class Quiz extends React.Component {
             incorrect : 0,
         })
     }
-    componentDidMount() {
-        clearLocalNotification().then(setLocalNotification)
-    }
+
     
     render(){
         const { index, showAnswer, correct, incorrect } = this.state
